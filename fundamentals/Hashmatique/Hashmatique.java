@@ -12,7 +12,7 @@ public class Hashmatique {
         String title = trackList.get("In the star");
         System.out.println(title);
 
-        Set<String> lyrics = trackList.keyset();
+        Set<String> lyrics = trackList.keySet();
         for (String lyric : lyrics) {
             System.out.println(lyric);
             System.out.println(trackList.get(lyric));
